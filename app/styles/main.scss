@@ -68,8 +68,9 @@ a[name]{
  		height: 400px;
  		width: 400px;
  		background:#dfdfdd;
-
+ 
  	}
+
  }
 
 }
@@ -84,4 +85,60 @@ a[name]{
  	}
 	}
 
+}
+
+
+//index2-black
+
+.black{
+	background: #414143;
+ .navbar-item{
+ 	color: white;
+
+ }
+}
+
+.header-black{
+	background:#c4c3c1;
+	height:400px;
+	h1{
+		color:white;
+		padding-top:100px;
+		text-align: center;
+	}
+}
+
+.container-all{
+.cont_1{
+	h2{
+		background:#c4c3c1;	
+	}
+	p{
+		text-align: justify;
+	}
+}
+.cont_2{
+
+}
+.cont_3{
+	background:#c4c3c1;
+	height:350px;	
+}
+
+.cont_5{
+
+	figure{
+ 		height: 200px;
+ 		width: 200px;
+ 		background:#dfdfdd;
+ 		display:block;
+        margin:auto;
+ 
+ 	}	
+}
+
+.cont_7{
+	background:#c4c3c1;
+	height:350px;	
+}
 }

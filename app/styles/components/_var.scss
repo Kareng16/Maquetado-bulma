@@ -26,13 +26,6 @@ $secondary:$red;
 
 
 @font-face {
-    font-family: 'Kanit';
-    src: url('../fonts/Kanit/Kanit-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
     font-weight: normal;
@@ -41,13 +34,12 @@ $secondary:$red;
 
 
 @import url('https://fonts.googleapis.com/css?family=Muli:400,700');
-$Kanit:'Kanit';
 $Roboto: 'Roboto';
 
 $avenirBold: 'Avenir Next LT Pro Bold';
 $avenirRegular: 'Avenir Next LT Pro';
 $muli:'Muli', sans-serif;
-$family-serif: $Kanit;
+$family-serif: $Roboto;
 
 
 //Break points
@@ -62,7 +54,5 @@ $img:'../images';
 $navbar-primary__height:69px;
 
 :root{
-  --navbar-primary__height:69px;
-  --companyWidth:160px;
-  --companyWidthDiv: calc(var(--companyWidth) / 2); 
+ 
 }
